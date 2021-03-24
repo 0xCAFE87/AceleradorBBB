@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "ClassAccelerator",
+    "version": "0.1",
+    "author": "0xCAFE",
+    "description": "Acelerador BBB",
+    "content_scripts": [
+      {
+        "matches": ["*://bigbluebutton.linti.unlp.edu.ar/playback/presentation/2.0/*"],
+        "js": ["app.js"]
+      }
+    ],
+    "icons": {
+        "32": "icons/script-32.png",
+        "48": "icons/script-48.png"
+      }
+}
